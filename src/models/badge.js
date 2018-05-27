@@ -9,11 +9,11 @@ class Badge {
     // TODO: Keep a list of recipients
   }
 
-  evaluate(raw) {
-    if (raw.hook !== this.hook || raw.action !== this.action) {
+  evaluate(opts) {
+    if (opts.hook !== this.hook || opts.action !== this.action) {
       return false;
     }
-    this.callback(raw);
+    this.callback(opts.payload);
     return true;
   }
 }

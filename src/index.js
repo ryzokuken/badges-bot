@@ -1,4 +1,5 @@
 const express = require('express');
+const badges = require('./badges');
 
 const app = express();
 
@@ -9,7 +10,11 @@ app.post('/github', (req, res) => {
   if (!event) {
     return res.sendStatus(400);
   }
-  console.log(event, req.body.action, req.body.member);
+  badges.handlePayload({
+    hook: event,
+    action: req.body.action,
+    payload: req.body
+  });
   return res.sendStatus(200);
 });
 
