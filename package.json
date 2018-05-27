@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/ryzokuken/badges-bot/issues"
   },
-  "homepage": "https://github.com/ryzokuken/badges-bot#readme"
+  "homepage": "https://github.com/ryzokuken/badges-bot#readme",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
 }
