@@ -2,7 +2,7 @@
   "name": "badges-bot",
   "version": "1.0.0",
   "description": "Prototype bot for the Badges Initiative",
-  "main": "index.js",
+  "main": "src/index.js",
   "scripts": {
     "start": "node .",
     "dev": "nodemon .",
