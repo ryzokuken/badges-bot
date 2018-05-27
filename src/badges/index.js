@@ -1,10 +1,8 @@
 const Badge = require('../models/badge');
 
-const testBadge = new Badge('test-badge', 'member', 'added', payload => {
-  console.log(`test-badge alloted to ${payload.member.login}`);
-});
+const coreCollaboratorBadge = require('./core-collaborator');
 
-const badges = [testBadge];
+const badges = [coreCollaboratorBadge];
 
 function handlePayload(opts) {
   badges.forEach(badge => badge.evaluate(opts));
