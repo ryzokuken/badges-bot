@@ -1,0 +1,19 @@
+{
+  "name": "badges-bot",
+  "version": "1.0.0",
+  "description": "Prototype bot for the Badges Initiative",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ryzokuken/badges-bot.git"
+  },
+  "author": "Ujjwal Sharma <usharma1998@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ryzokuken/badges-bot/issues"
+  },
+  "homepage": "https://github.com/ryzokuken/badges-bot#readme"
+}
