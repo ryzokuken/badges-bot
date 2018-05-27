@@ -17,3 +17,5 @@ class Badge {
     return true;
   }
 }
+
+module.exports = Badge;
